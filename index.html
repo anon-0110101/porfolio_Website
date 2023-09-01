@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+</head>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero"><h1><span>A</span>lexander <span>H</span>art</h1></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Skills</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Alexander <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Sk<span>i</span>lls</h1>
+        <p>I'm a fullstack blockchain developer who specializes in the following languages: </p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="./img/Python.png"/></div>
+          <h2>Python</h2>
+          <p>Python is a versatile and beginner-friendly programming language that I use to create applications, automate tasks, and solve vrious problems through its simple and readable syntax.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/React.png"/></div>
+          <h2>React.js</h2>
+          <p>A Javascript library that I use to build user interfaces for web applications, enabling me to create interactive and dynamic components by composing reusable pieces of code that manage the UI state efficiently. I used React to create the frontend of my token exchange website.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/Solidity.png"/></div>
+          <h2>Solidity</h2>
+          <p>A high-level progrmming language that I use to write smart contracts on the Ethereum blockchain, allowing me to define the rules and logic of decentralized applications by creating self-executing code that interacts with the blockchain's data and transactions. I used it to create my Token Exchange contrat as well as my Tokens contacts which were deployed on the Ethereum testnest. </p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/Redux.png"/></div>
+          <h2>Redux Library Toolkit</h2>
+          <p>A JavaScript library that I use to manage the state of my React applications in a predictable and centralized manner, employing a combination of actions, reducers, and a single global store to efficiently handle and update application data across different componenets.</p>
+        </div>
+        <div class="service-item">
+            <div class="icon"><img src="./img/Hardhat.png"/></div>
+            <h2>Hardhat</h2>
+            <p>A development environment for building and testing Ethereum smart contracts, providing tools and a robust framework that I use to compile, deploy, and interact with contracts, as well as run tests and automate various tasks in the Ethereum development workflow.</p>
+        </div>
+        <div class="service-item">
+            <div class="icon"><img src="./img/Metamask.png"/></div>
+            <h2>MetaMask</h2>
+            <p>A browser extension and mobile app that serves as a cryptocurrency wallet and a user-friendly interface for interacting with dApps on the Ethereum blockchain. I have deployed my testnet tokens here such as my RanchoToken and created fake ether and Dai stable coin tokens.</p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>React.js / Redux.js Project 1</h1>
+            <h2>Token Exchange</h2>
+            <p>A live token exchange that shows open trades, past trades, connecting to a Web3 Wallet as well as showcasing the data in a visual graph</p>
+          </div>
+          <a href="https://small-truth-3832.on.fleek.co/" target="_blank">
+          <div class="project-img">
+            <img src="./img/token_exchange.png" alt="img" style="overflow: visible;">
+          </div>
+          </a>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Solidity / Hardhat Project 1</h1>
+            <h2>ERC-20 Tokens -- RanchoToken, wETH token, mDAI token </h2>
+            <p>Created the code to deploy different ERC-20 tokens to a real life blockchain....only the fees are needed to be paid to deploy it.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/tokens_contract.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info" style="padding: 0">
+            <h1>Solidity / Hardhat Project 2</h1>
+            <h2>Token Exchange</h2>
+            <p>An exchange  facilitate transfers, and trades of different tokens...choose your token pair and trade between them, create and execute trades between different tokens. Also connects to the blockchain through a web3 wallet.</p>
+          </div>
+          <a href="https://small-truth-3832.on.fleek.co/" target="_blank">
+          <div class="project-img">
+            <img src="./img/exchange.png" alt="img" style="overflow: visible;">
+          </div>
+          </a>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1> Solidity / React.js / ViteJs Project 3 </h1>
+            <h2>web3-crowdfund.netlify.app</h2>
+            <p>A Web 3 Crowdfunding website like Kickstarter. Connect your Metamask wallet and add a campaign you would want the public to help fund. Add funds to established campaigns.</p>
+          </div>
+          <a href="https://web3-crowdfund.netlify.app/" target="_blank">
+          <div class="project-img">
+            <img src="./img/CrowdFunding.png" alt="img">
+          </div>
+          </a>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Python Project 2</h1>
+            <h2>Link Tree</h2>
+            <p>A website that links my previous python projects into one space.. I have several website templates including one for a store, one for a online teacher, a tic tac toe game, a calculator and a blog</p>
+          </div>
+          <a href="https://link-tree.anon248infinity.repl.co/" target="_blank">
+          <div class="project-img">
+            <img src="./img/link_tree.png" alt="img">
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/AnonDeveloper.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Full Stack Blockchain Developer</h2>
+        <h3>My name is Alexander Hart</h3>
+        <p>My passion for blockchain development started in January 2021 after the boom of the cryptocurrency markets where I questioned why there was cryptocurrency and the popularity of them in the world. This led me down a path of learning about Web 3 and the future of Money and Data on the blockchain. </p>
+        <a href="https://www.mediafire.com/file/qfiki50acmv99gu/Resume_Developer.odt/file" class="cta" target="_blank">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div><h1 class="section-title">Contact <span>info</span></h1></div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+          <div class="contact-info">
+            <h1>Phone(WhatsApp)</h1>
+            <h2><a href="https://wa.me/14846356078">+**********</a></h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2><a href="mailto:alexanderhart21@criptext.com">alexanderhart21@criptext.com</a></h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png"/></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Virtually Everywhere</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand"><h1><span>A</span>lexander <span>H</span>art</h1></div>
+      <h2>I am available on web3 social media platforms</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://twetch.com/u/80557"><img src="./img/twetch_img.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://club.relayx.com/1bigblocktoad"><img src="./img/relayx_img.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://github.com/anon-0110101"><img src="./img/github_img.png"/></a>
+        </div>
+      </div>
+      <p>Copyright © 2023 Alexander. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+</html>
+
